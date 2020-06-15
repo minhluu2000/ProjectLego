@@ -16,5 +16,5 @@
 
 # Credits
  1. Thank you André for his simple-to-use RFID Library.
- 2. Thank you dethi for your guidance on how to use the Riot Client API. This is also a huge thanks to the Riot Games Dev Community Discord.
+ 2. Thank you dethi for your guidance on how to use the Riot Client API. This is also a huge thanks to the Riot Games Dev Community and Programming Palace Discord.
  3. Thank you to [Carlos Trejo](https://github.com/CarlosGTrejo) for his tremendous help throughout the project.
