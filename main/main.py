@@ -33,7 +33,7 @@ if __name__ == "__main__":
         try:
             ser_byte = ser.readline()
             if 'Open client'.encode() in ser_byte:
-                subprocess.call(['C:\\Riot Games\\League of Legends\\LeagueClient.exe'])
+                subprocess.call(['C:\\Riot Games\\League of Legends\\LeagueClient.exe']) # change this directory to the place where you actually run League from
             if 'Card UID:'.encode() in ser_byte:
                 auth = ser_byte.split(': '.encode())[1] == UID.encode()
                 if auth:
