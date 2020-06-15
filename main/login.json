@@ -1,0 +1,13 @@
+{
+    "login": 
+    {
+            "username":"",
+            "password":"",
+            "persistLogin":"false"
+    },
+    "auth":
+    {
+        "clientId":"riot-client",
+        "trustLevels":"always_trusted"
+    }
+}
