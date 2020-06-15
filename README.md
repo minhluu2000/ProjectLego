@@ -6,3 +6,9 @@
 # Schematic
  The included Arduino code contains the pin layout for connecting the RFID sensor to different Arduino board. This code is based on the [André Balboa's RFID Library](https://github.com/miguelbalboa/rfid) that is relatively easy to understand. The way you connect a sound sensor is also very simple as it only has a single output pin and the standard Vcc and Ground pins that can be connected to the 5V source straight from the Arduino Nano.
 
+# How to install
+ 1. Load the Arduino code on the board using the Arduino IDE. Make sure you check all the pins with the ones written in the code.
+ 2. Install the requirements for python using the [requirements.txt file](https://pip.pypa.io/en/stable/user_guide/).
+ 3. Fill in your credentials in the login.json file as well as the RFID UID of any standard RFID card. If you want to know what the UID is of your card, after assemble the RFID reader with the Arduino, just use the RFID Library to load the dumpinfo sketch (check André GitHub for information).
+ 4. Check your client location and fill in that information at the place I commented in the main.py file.
+ 5. You can run directly the main.py file or you can run as an administrator with the main.bat file. You can also run it hidden by changing the .py file to .pyw. If you want this program to run at start, you can use Windows Task Scheduler.
