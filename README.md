@@ -12,3 +12,8 @@
  3. Fill in your credentials in the login.json file as well as the RFID UID of any standard RFID card. If you want to know what the UID is of your card, after assemble the RFID reader with the Arduino, just use the RFID Library to load the dumpinfo sketch (check André GitHub for information).
  4. Check your client location and fill in that information at the place I commented in the main.py file.
  5. You can run directly the main.py file or you can run as an administrator with the main.bat file. You can also run it hidden by changing the .py file to .pyw. If you want this program to run at start, you can use Windows Task Scheduler.
+
+# Credits
+ 1. Thank you André for his simple-to-use RFID Library.
+ 2. Thank you dethi for your guidance on how to use the Riot Client API. This is also a huge thanks to the Riot Games Dev Community Discord.
+ 3. Thank you to [Carlos Trejo](https://github.com/CarlosGTrejo) for his tremendous help throughout the project.
